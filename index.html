@@ -24,7 +24,13 @@
     />
   </head>
   <body>
+    <!-- dark mode button  -->
+    <input type="checkbox" id="darkmode" class="dark-mode-checkbox" />
+
     <div class="wrapper">
+      <label for="darkmode"
+        ><i class="fa-solid fa-circle-half-stroke dark-mode-toggle"></i
+      ></label>
       <!-- header  -->
       <nav class="primary-header flex">
         <div class="logo flex">
@@ -38,6 +44,10 @@
         </div>
 
         <div class="right">
+          <input type="checkbox" id="check" />
+          <label for="check" class="menu-icon"
+            ><i class="fa-solid fa-bars"></i
+          ></label>
           <ul class="navigation flex">
             <li>
               <a href="#">Home</a>
@@ -134,7 +144,7 @@
           </div>
 
           <div class="flex">
-            <div class="html"><i class="fa-brands fa-js"></i></div>
+            <i class="fa-brands fa-js"></i>
             <span>JavaScript</span>
           </div>
 
@@ -276,6 +286,12 @@
           </div>
         </div>
       </footer>
+
+      <div class="scroll-to-top">
+        <a href="#" class="scroll-btn">
+          <i class="fa-solid fa-chevron-up"></i>
+        </a>
+      </div>
     </div>
   </body>
 </html>
